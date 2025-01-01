@@ -1,0 +1,113 @@
+* {
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* NAV ========================================================= */
+
+nav {
+    height: 100px;
+    background-color: #5f458c;
+    color: black;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    /* Vertically centers content */
+    justify-content: space-between;
+    /* Spreads out the logo and navigation links */
+    overflow: hidden;
+}
+
+nav ul {
+    display: flex;
+    /* Ensures list items align horizontally */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: normal;
+    padding-left: 30px;
+}
+
+nav label a {
+    display: flex;
+    height: 75px;
+    padding-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* BODY ========================================================= */
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+.subHead{
+    font-size: 36px;
+    /*background-color: red;*/
+    margin: 20px 7.5% 20px 7.5%;
+}
+
+.subContainer {
+    display: flex; /* Ensures child elements align properly */
+    text-align: center;
+    justify-content: center; /* Centers child elements horizontally */
+    margin: 0px;
+}
+
+.divide {
+    background-color: black; /* Makes it visible */
+    width: 1px;
+    height: auto; /* Matches the parent's height */
+    margin: 0 10px; /* Adds spacing around the divider */
+}
+
+.subTitle{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.subContent {
+    /*background-color: blue;*/
+    width: 40%;
+    margin: 0 1% 0 1%;
+    overflow: hidden;
+}
+
+.subContent ul {
+    font-size: 24px;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* FOOTER ========================================================= */
+
+footer {
+    background-color: #e3daf0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 1px 0;
+    z-index: 1000;
+}
